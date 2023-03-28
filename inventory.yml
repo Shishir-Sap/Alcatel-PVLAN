@@ -1,0 +1,9 @@
+---
+all:
+  hosts:
+    Test-switch:
+      ansible_host: 172.23.3.100
+      device_vendor: alcatel
+      device_os: aos6
+      ansible_connection: ansible.netcommon.network_cli
+      ansible_network_os: jefvantongerloo.alcatel.aos
